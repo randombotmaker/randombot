@@ -4,7 +4,7 @@ const PREFIX = "";
 
 var client = new Discord.Client();
 
-const TOKEN = "NDEzMjMwODM0MDYxOTM0NTk3.DWVzfw.bWTpgGVyounGXXHb_01MT2ceeio";
+const TOKEN = "NDEzMjc2NDAxNzEwMzk5NDkw.DWWdLA.yoPnyThsdPhYCzvbrg-kcDPcEeQ";
 
 client.on("ready", function(message) {
     console.log("Logged in as ${client.user.tag}")
