@@ -35,6 +35,10 @@ client.on("message", function(message) {
     case "&pong":
     message.channel.sendMessage("ping?")
     break;
+            
+    case "hey":
+    message.channel.sendMessage("hey wyd?")
+    break;
     }
 });
 client.login(TOKEN)
