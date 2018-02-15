@@ -7,7 +7,7 @@ var client = new Discord.Client();
 const TOKEN = "NDEzMjc2NDAxNzEwMzk5NDkw.DWWdLA.yoPnyThsdPhYCzvbrg-kcDPcEeQ";
 
 client.on("ready", function(message) {
-    console.log("Logged in as ${client.user.tag}")
+    console.log("srsBot up and running!")
     client.user.setStatus('Online')
     client.user.setGame('&help')
 });
@@ -66,6 +66,30 @@ client.on("message", function(message) {
             
     case "yes":
     message.channel.sendMessage("no!")
+    break;
+            
+    case "ye":
+    message.channel.sendMessage("noooooo")
+    break;
+            
+    case "wtf":
+    message.channel.sendMessage("like shit")
+    break;
+            
+    case "fuck":
+    message.channel.sendMessage("oi no swearing jks jks")
+    break;
+            
+    case "succ":
+    message.channel.sendMessage("dicc")
+    break;
+            
+    case "haha":
+    message.channel.sendMessage("oh yes very funny 10/10 from IGN")
+    break;
+            
+    case "shit":
+    message.channel.sendMessage("haha ur stfed lol")
     break;
     }
 });
