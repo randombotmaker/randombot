@@ -95,6 +95,14 @@ client.on("message", function(message) {
     case "oh":
     message.channel.sendMessage("yeah u didn't know?")
     break;
+            
+    case "ermagherd":
+    message.channel.sendMessage("wots bothering ya m8?")
+    break;
+            
+    case "finally":
+    message.channel.sendMessage("finally what?")
+    break;
     }
 });
 client.login(TOKEN)
