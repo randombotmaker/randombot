@@ -39,6 +39,34 @@ client.on("message", function(message) {
     case "hey":
     message.channel.sendMessage("hey wyd?")
     break;
+    
+    case "lol":
+    message.channel.sendMessage("lol indeed")
+    break;
+            
+    case "hehe":
+    message.channel.sendMessage("watcha tryna do?")
+    break;
+            
+    case "omg":
+    message.channel.sendMessage("ikr")
+    break;
+            
+    case "oml":
+    message.channel.sendMessage("ikr")
+    break;
+            
+    case "bruh":
+    message.channel.sendMessage("wot?")
+    break;
+            
+    case "no":
+    message.channel.sendMessage("yes!")
+    break;
+            
+    case "yes":
+    message.channel.sendMessage("no!")
+    break;
     }
 });
 client.login(TOKEN)
