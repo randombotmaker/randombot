@@ -30,7 +30,6 @@ client.on("message", function(message) {
             
     case "&help":
         var embed = new Discord.RichEmbed()
-            .setHeader("srsBot Commands:")
             .addField("&help", "Shows this window.")
             .addField("&ping", "pong!")
             .addField("&ping", "ping?")
