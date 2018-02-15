@@ -91,6 +91,10 @@ client.on("message", function(message) {
     case "shit":
     message.channel.sendMessage("haha ur stfed lol")
     break;
+            
+    case "oh":
+    message.channel.sendMessage("yeah u didn't know?")
+    break;
     }
 });
 client.login(TOKEN)
