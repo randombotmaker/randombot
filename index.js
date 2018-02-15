@@ -29,7 +29,18 @@ client.on("message", function(message) {
     break;
             
     case "&help":
-    message.channel.sendMessage("Help commands coming soon!")
+            var embed = new Discord.RichEmbed()
+                .addField("&help", "Shows this window.")
+                .addField("&ping", "pong!")
+                .addField("&ping", "ping?")
+                .addField("hi", "hey wyd")
+                .addField("hey", "hey wyd")
+                .addField("lol", "lol indeed")
+                .setFooter("Credits: made by Slurpy")
+                .setColor("#0xff0000")
+            message.channel.sendEmbed(embed).catch(e => {
+              console.error(e);
+            });
     break;
             
     case "&pong":
