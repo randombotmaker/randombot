@@ -103,6 +103,10 @@ client.on("message", function(message) {
     case "finally":
     message.channel.sendMessage("finally what?")
     break;
+            
+    case "ok":
+    message.channel.sendMessage("or is it ok?")
+    break;
     }
 });
 client.login(TOKEN)
